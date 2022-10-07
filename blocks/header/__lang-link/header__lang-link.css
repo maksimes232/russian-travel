@@ -1,0 +1,33 @@
+.header__lang-link {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  transition: color .2s linear;
+  margin-right: 18px;
+}
+
+.header__lang-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header__lang-link_checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.header__lang-link_eng {
+  margin: 0;
+}
+
+.header__lang-link_checkbox:checked+.header__lang-link_ru {
+  text-decoration: underline;
+}
+
+.header__lang-link_checkbox:checked+.header__lang-link_eng {
+  text-decoration: underline;
+}

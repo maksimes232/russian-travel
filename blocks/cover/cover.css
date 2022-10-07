@@ -1,0 +1,17 @@
+.cover {
+    width: 1184px;
+    height: 740px;
+    background-image: url(../../images/cover/cover__background.jpg);
+    background-repeat: no-repeat;
+    background-color: #2A2C2F;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .cover:hover {
+    background-blend-mode: overlay;
+  }
