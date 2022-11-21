@@ -1,5 +1,17 @@
 .main {
-    display: grid;
-    grid-template-columns: 100%;
-    row-gap: 92px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    row-gap: 88px;
   }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    row-gap: 64px;
+  }
+}

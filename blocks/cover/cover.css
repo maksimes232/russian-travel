@@ -3,8 +3,9 @@
     height: 740px;
     background-image: url(../../images/cover/cover__background.jpg);
     background-repeat: no-repeat;
-    background-color: #2A2C2F;
+    background-color: rgba(42, 44, 47, 0.3);
     background-size: cover;
+    background-blend-mode: overlay;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +13,35 @@
     margin: 0 auto;
   }
 
-  .cover:hover {
-    background-blend-mode: overlay;
+.cover:hover {
+    background-color: rgba(42, 44, 47, 0.8);
   }
+
+@media screen and (max-width: 1183px) {
+  .cover {
+    height: 640px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-height: 480px;
+    min-height: 200px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    width: 100%;
+    margin: 0 0 68px;
+    height: 465px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover {
+    height: 200px;
+  }
+}

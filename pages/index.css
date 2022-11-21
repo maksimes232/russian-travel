@@ -6,7 +6,10 @@
 
 /*HEADER*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
+@import url(../blocks/header/__logo/header__logo.css);
 
 /*LEAD*/
 @import url(../blocks/lead/lead.css);
@@ -20,6 +23,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list/_bold/intro__list_bold.css);
 
 /*PHOTO-GRID*/
@@ -47,119 +51,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-body {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .screen-width_1024 {
-    width: 90%;
-  }
-
-  .cover {
-    height: 640px;
-    width: 1024px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .place__title {
-    color: #fff;
-    font-size: 2.6rem;
-  }
-
-  .cover {
-    height: 480px;
-    width: 100%;
-  }
-
-  .lead__caption {
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .header__lang-link {
-    font-size: 18px;
-  }
-
-  .lead__title {
-    color: #fff;
-    width: 288px;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 44px;
-    text-align: center;
-    margin: auto;
-  }
-
-  .lead__subtitle {
-    color: #fff;
-    width: 288px;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: center;
-  }
-
-  .lead__caption {
-    margin-left: 16px;
-  }
-
-  .place {
-    grid-template-columns: 1fr;
-    max-width: 984px;
-    margin-bottom: 50px;
-  }
-
-  .cover {
-    margin: 65px auto;
-    height: 200px;
-    width: 100%;
-  }
-
-  .cover__title {
-    color: #fff;
-    font-size: 32px;
-    line-height: 35px;
-    text-align: center;
-    font-weight: 900;
-    width: 288px;
-    margin: 0 0 32px;
-  }
-
-  .cover__subtitle {
-    color: #fff;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    font-weight: 400;
-    width: 288px;
-    margin: 0;
-  }
-
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: auto;
-    padding: 0;
-  }
-
-  .footer__links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0;
-    margin-bottom: 48px;
-  }
-
-  .footer__link {
-    margin: 0;
-    width: 50%;
-    margin-bottom: 32px;
-  }
-}

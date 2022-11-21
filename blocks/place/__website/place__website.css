@@ -1,3 +1,11 @@
 .place__website {
   align-self: end;
 }
+
+@media screen and (max-width: 767px){
+  .place__website {
+    width: 90%;
+    min-width: 288px;
+    margin: auto;
+  }
+}

@@ -1,13 +1,12 @@
 .footer__link {
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-family: 'Inter';
+  font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   margin: 0;
   margin-right: 18px;
-  width: 100%;
   transition: color .2s linear;
 }
 
@@ -17,4 +16,13 @@
 
 .footer__link:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin: 0;
+    width: 50%;
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
 }
