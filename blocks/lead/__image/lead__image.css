@@ -3,28 +3,5 @@
   justify-content: center;
   margin: 0 0 8px;
   width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__image {
-    margin-bottom: 13px;
-  }
-}
-
-@media screen and (max-width: 928px) {
-  .lead__image {
-    margin-bottom: 8px;
-  }
-}
-
-@media screen and (max-width: 730px) {
-  .lead__image {
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .lead__image {
-    height: 200px;
-  }
+  object-fit: cover
 }

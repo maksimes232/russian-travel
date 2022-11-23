@@ -1,7 +1,7 @@
 .header {
+  font-family: 'Inter', Arial, sans-serif;
   max-width: 1184px;
-  width:90%;
-  min-width: 288px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   padding-top: 28px;
@@ -11,19 +11,20 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .header {
-    padding-bottom: 45px;
+    min-width: 720px;
+    padding-bottom: 46px;
   }
 }
 
-@media screen and (max-width: 977px) {
+@media screen and (max-width: 767px) {
   .header {
-    padding-bottom: 44px;
+    min-width: 288px;
   }
 }
 
-@media screen and (max-width: 725px) { 
+@media screen and (max-width: 740px) { 
   .header {
     padding-top: 16px;
   }

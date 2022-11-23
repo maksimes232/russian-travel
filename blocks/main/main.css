@@ -2,16 +2,19 @@
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 92px;
+  padding-bottom: 98px;
 }
 
 @media screen and (max-width: 768px) {
   .main {
+    padding-bottom: 88px;
     row-gap: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .main {
+    padding-bottom: 64px;
     row-gap: 64px;
   }
 }
