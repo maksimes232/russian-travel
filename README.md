@@ -5,7 +5,7 @@
  Для написания проекта использовались HMTL5 и CSS3
 
  ## Ссылка на проект в GitHub
- [Ссылка на деплой](https://github.com/maksimes232/russian-travel.git)
+ [Ссылка на деплой](https://maksimes232.github.io/russian-travel/)
 
 
 
