@@ -4,7 +4,8 @@
  Первое задание второго месяца обучения. В нем были использованы grid и приемы адаптивной верстки.
  Для написания проекта использовались HMTL5 и CSS3
 
- ## [Ссылка на проект в GitHub](https://github.com/maksimes232/russian-travel.git)
+ ## Ссылка на проект в GitHub
+ [Ссылка на деплой](https://github.com/maksimes232/russian-travel.git)
 
 
 
