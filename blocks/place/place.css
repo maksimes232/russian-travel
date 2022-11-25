@@ -1,7 +1,7 @@
 .place {
   display: grid;
   font-family: 'Inter', Arial, sans-serif;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 460px 484px; 
   grid-auto-rows: minmax(min-content, max-content);
   width: 100%;
   gap: 48px 32px;
@@ -12,8 +12,15 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1024px) { 
+  .place { 
+    grid-template-columns: 440px 456px;
+  }
+}
+
 @media screen and (max-width: 970px) {
   .place {
+    grid-template-columns: 340px 352px;; 
     gap: 46px 28px;
     margin: 0 0 73px;
   }
