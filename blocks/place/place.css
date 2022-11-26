@@ -2,6 +2,7 @@
   display: grid;
   font-family: 'Inter', Arial, sans-serif;
   grid-template-columns: 460px 1fr; 
+
   grid-auto-rows: minmax(min-content, max-content);
   gap: 48px 32px;
   margin: 0 0 80px;
