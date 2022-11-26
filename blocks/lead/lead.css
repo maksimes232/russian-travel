@@ -2,12 +2,12 @@
   font-family: 'Inter', Arial, sans-serif;
   max-width: 984px;
   width: 90%;
-  min-width: 927px;
+  min-width: 928px;
   margin: auto;
   font-size: 16px;
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 945px) {
   .lead {
     width: 100%;
     min-width: 320px;
